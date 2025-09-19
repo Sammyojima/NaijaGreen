@@ -57,13 +57,13 @@ NaijaGreen/
 
 
 
-| Page         | Screenshot |
+ Page         | Screenshot |
 |--------------|-------------|
-![Home Page]    (images/screenshots/home.png)
-![About Page]   (images/screenshots/about.png)
-![Services Page](images/screenshots/services.png)
-![Gallery Page] (images/screenshots/gallery.png)
-![Contact Page] (images/screenshots/contact.png)
+| Home          | ![Home Page](images/screenshots/home.png) |
+| About         | ![About Page](images/screenshots/about.png) |
+| Services      | ![Services Page](images/screenshots/services.png) |
+| Gallery       | ![Gallery Page](images/screenshots/gallery.png) |
+| Contact       | ![Contact Page](images/screenshots/contact.png) |
 
 
 **How to Run Locally**
