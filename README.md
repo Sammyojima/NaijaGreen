@@ -53,6 +53,18 @@ NaijaGreen/
 
 🔗 Live Demo: https://naijagreen.netlify.app/
 
+## 🖼️ Screenshots
+
+
+
+| Page         | Screenshot |
+|--------------|-------------|
+| Home          | ![Home Page](screenshots/home.png) |
+| About         | ![About Page](screenshots/about.png) |
+| Services      | ![Services Page](screenshots/services.png) |
+| Gallery       | ![Gallery Page](screenshots/gallery.png) |
+| Contact       | ![Contact Page](screenshots/contact.png) |
+
 How to Run Locally
 
 1. Clone this repository:
@@ -77,7 +89,12 @@ c. JavaScript (Vanilla) — for interactivity
 
 d. Font Awesome — for icons
 
-📄 **License**
+*NaijaGreen Team**  
+Email: samuelojimaidakwo@ggmail.com  
+GitHub: [@Sammyojima](https://github.com/Sammyojima)
 
+📄 **License**
+This project is for educational purposes and is open-source.
+You are free to use, modify, and build upon it with attribution.
 This project is for educational purposes and is open-source.
 You are free to use, modify, and build upon it with attribution.
