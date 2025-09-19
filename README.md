@@ -59,13 +59,14 @@ NaijaGreen/
 
 | Page         | Screenshot |
 |--------------|-------------|
-| Home          | ![Home Page](screenshots/home.png) |
-| About         | ![About Page](screenshots/about.png) |
-| Services      | ![Services Page](screenshots/services.png) |
-| Gallery       | ![Gallery Page](screenshots/gallery.png) |
-| Contact       | ![Contact Page](screenshots/contact.png) |
+![Home Page]    (images/screenshots/home.png)
+![About Page]   (images/screenshots/about.png)
+![Services Page](images/screenshots/services.png)
+![Gallery Page] (images/screenshots/gallery.png)
+![Contact Page] (images/screenshots/contact.png)
 
-How to Run Locally
+
+**How to Run Locally**
 
 1. Clone this repository:
 
