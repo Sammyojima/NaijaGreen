@@ -57,7 +57,7 @@ header {
 
 /* Hero */
 .hero {
-  background: url('recycling-bg.jpg') center/cover no-repeat;
+  background: url('/images/recycling-bg.jpg') center/cover no-repeat;
   color: #f5f4f4;
   text-align: center;
   padding: 6rem 2rem;
@@ -421,7 +421,7 @@ footer {
 
 .hero {
   height: 100vh; /* full screen height */
-  background: url('../recycling-bg.jpg') no-repeat center center/cover;
+  background: url('../images/recycling-bg.jpg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -495,12 +495,12 @@ footer {
   .nav-links {
   display: flex;
   flex-direction: column;
-  background: #1b5e20;
+  background: #1b5e1fc5;
   position: fixed;        /* fixed so it slides over the page */
   top: 0;
   right: -250px;          /* start off-screen */
   width: 150px;
-  height: 30vh;          /* full screen height */
+  height: 35vh;          /* full screen height */
   padding: 2rem 1rem;
   gap: 20px;
   transition: right 0.3s ease;  /* smooth sliding */

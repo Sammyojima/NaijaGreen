@@ -20,27 +20,31 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// Lightbox functionality
+/// Lightbox functionality
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
 const closeBtn = document.querySelector('.close');
-const galleryLinks = document.querySelectorAll('.lightbox-link');
 
-galleryLinks.forEach(link => {
+document.querySelectorAll('.lightbox-link').forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault();
+    const imgSrc = link.getAttribute('href'); // get full image path
     lightbox.style.display = 'flex';
-    lightboxImg.src = link.href;
+    lightboxImg.src = imgSrc;
   });
 });
 
+// Close lightbox when clicking the X button
 closeBtn.addEventListener('click', () => {
   lightbox.style.display = 'none';
+  lightboxImg.src = '';
 });
 
-lightbox.addEventListener('click', e => {
+// Also close when clicking outside the image
+lightbox.addEventListener('click', (e) => {
   if (e.target === lightbox) {
     lightbox.style.display = 'none';
+    lightboxImg.src = '';
   }
 });
 
