@@ -1,53 +1,83 @@
+🌍 **NaijaGreen Bottles**
+
+**Clean Nigeria, One Bottle at a Time**
+
+NaijaGreen Bottles is a multi-page responsive website designed to promote recycling awareness and showcase the activities of a PET bottle collection and recycling initiative in Nigeria. The project demonstrates the use of HTML5, CSS3, and JavaScript to create a production-ready website.
+
+🎯 **Project Purpose**
+
+Promote environmental sustainability and recycling awareness.
+
+Provide information about NaijaGreen Bottles’ mission, services, and community activities.
+
+Offer an easy way for partners, volunteers, and the public to contact the organization.
+
+Showcase recycling activities through a photo gallery.
+
+📁 **Project Structure**
 NaijaGreen/
 │
-├── index.html # Home page
-├── about.html # About page
-├── services.html # Services page
-├── gallery.html # Gallery page
-├── contact.html # Contact page
+├── index.html          # Home page
+├── about.html           # About page
+├── services.html        # Services page
+├── gallery.html         # Gallery page (with lightbox)
+├── contact.html         # Contact form page
 │
 ├── css/
-│ └── style.css # Main stylesheet
+│   └── style.css         # Main stylesheet
 │
 ├── js/
-│ └── script.js # JavaScript for interactivity
+│   └── script.js         # JS for menu toggle and gallery lightbox
 │
-└── logo.png # Brand logo
+├── images/
+│   ├── logo.png
+│   ├── p1.jpg
+│   ├── p2.jpg
+│   ├── ...               # All gallery and background images
+│
+└── README.md
+
+⚡ **Features**
+
+📱 Responsive design — Works on desktop, tablet, and mobile.
+
+🧭 Navigation bar with hamburger menu on smaller screens.
+
+💡 Interactive photo gallery with lightbox pop-up.
+
+📩 Contact form for inquiries.
+
+🎨 Consistent branding, colors, and layout across pages.
+
+🌐 **Live Website**
+
+🔗 Live Demo: https://naijagreen.netlify.app/contact
+
+How to Run Locally
+
+1. Clone this repository:
+
+git clone https://github.com/Sammyojima/NaijaGreen.git
 
 
----
+2. Navigate to the project folder:
 
-## ⚙️ Features
+cd NaijaGreen
 
-- ✅ Responsive navigation bar with mobile hamburger menu  
-- ✅ Beautiful hero section with full-width background image  
-- ✅ Services and About pages to showcase company details  
-- ✅ Gallery page with image lightbox feature  
-- ✅ Contact form with map and contact details  
-- ✅ SEO-friendly meta tags  
-- ✅ Mobile-first responsive design
 
----
+3. Open index.html in your browser.
 
-## 🛠️ Tech Stack
+📌 **Technologies Used**
 
-- **HTML5** – Structure  
-- **CSS3** – Styling & responsiveness  
-- **JavaScript (Vanilla)** – Interactivity
+a. HTML5 — for structure
 
----
+b. CSS3 — for styling and responsiveness
 
-## 📬 Contact
+c. JavaScript (Vanilla) — for interactivity
 
-**NaijaGreen Bottles**  
-📍 Gold Plaza, Ibeju Lekki, Lagos, Nigeria  
-📧 [naijagreenbottles@yahoo.com](mailto:naijagreenbottles@yahoo.com)  
-📱 +234 810 751 3032
+d. Font Awesome — for icons
 
----
+📄 **License**
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
+This project is for educational purposes and is open-source.
+You are free to use, modify, and build upon it with attribution.
