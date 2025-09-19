@@ -51,7 +51,7 @@ NaijaGreen/
 
 🌐 **Live Website**
 
-🔗 Live Demo: https://naijagreen.netlify.app/contact
+🔗 Live Demo: https://naijagreen.netlify.app/
 
 How to Run Locally
 
